@@ -1,0 +1,159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'http-server', '-g' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.33
+4 verbose cache add [ 'http-server', null ]
+5 verbose cache add name=undefined spec="http-server" args=["http-server",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'http-server',
+6 verbose parsed url   path: 'http-server',
+6 verbose parsed url   href: 'http-server' }
+7 silly lockFile ed608307-http-server http-server
+8 verbose lock http-server /home/jsmith/.npm/ed608307-http-server.lock
+9 silly lockFile ed608307-http-server http-server
+10 silly lockFile ed608307-http-server http-server
+11 verbose addNamed [ 'http-server', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 550353c6-http-server http-server@
+14 verbose lock http-server@ /home/jsmith/.npm/550353c6-http-server.lock
+15 silly addNameRange { name: 'http-server', range: '*', hasData: false }
+16 verbose url raw http-server
+17 verbose url resolving [ 'https://registry.npmjs.org/', './http-server' ]
+18 verbose url resolved https://registry.npmjs.org/http-server
+19 info trying registry request attempt 1 at 20:21:25
+20 verbose etag "JQDKK7HGXV78J5KL68CUVFKR"
+21 http GET https://registry.npmjs.org/http-server
+22 http 304 https://registry.npmjs.org/http-server
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Wed, 20 Jan 2016 02:21:26 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     etag: '"JQDKK7HGXV78J5KL68CUVFKR"',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1453256486.219710,VS0,VE271',
+23 silly registry.get     vary: 'Accept' } ]
+24 verbose etag http-server from cache
+25 silly addNameRange number 2 { name: 'http-server', range: '*', hasData: true }
+26 silly addNameRange versions [ 'http-server',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.2.5',
+26 silly addNameRange     '0.2.6',
+26 silly addNameRange     '0.2.9',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.2',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.5.5',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.7.3',
+26 silly addNameRange     '0.7.4',
+26 silly addNameRange     '0.7.5',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.8.5' ] ]
+27 verbose addNamed [ 'http-server', '0.8.5' ]
+28 verbose addNamed [ '0.8.5', '0.8.5' ]
+29 silly lockFile 7b3268f0-http-server-0-8-5 http-server@0.8.5
+30 verbose lock http-server@0.8.5 /home/jsmith/.npm/7b3268f0-http-server-0-8-5.lock
+31 silly lockFile 7b3268f0-http-server-0-8-5 http-server@0.8.5
+32 silly lockFile 7b3268f0-http-server-0-8-5 http-server@0.8.5
+33 silly lockFile 550353c6-http-server http-server@
+34 silly lockFile 550353c6-http-server http-server@
+35 silly resolved [ { name: 'http-server',
+35 silly resolved     version: '0.8.5',
+35 silly resolved     description: 'A simple zero-configuration command-line http server',
+35 silly resolved     main: './lib/http-server',
+35 silly resolved     repository:
+35 silly resolved      { type: 'git',
+35 silly resolved        url: 'git://github.com/indexzero/http-server.git' },
+35 silly resolved     keywords: [ 'cli', 'command' ],
+35 silly resolved     scripts:
+35 silly resolved      { start: 'node ./bin/http-server',
+35 silly resolved        pretest: 'common bin/http-server lib/ test',
+35 silly resolved        test: 'vows --spec --isolate' },
+35 silly resolved     contributors:
+35 silly resolved      [ [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object] ],
+35 silly resolved     dependencies:
+35 silly resolved      { colors: '1.0.3',
+35 silly resolved        optimist: '0.6.x',
+35 silly resolved        union: '~0.4.3',
+35 silly resolved        ecstatic: '~0.7.0',
+35 silly resolved        'http-proxy': '^1.8.1',
+35 silly resolved        portfinder: '0.4.x',
+35 silly resolved        opener: '~1.4.0',
+35 silly resolved        corser: '~2.0.0' },
+35 silly resolved     devDependencies: { 'common-style': '^3.0.0', request: '2.49.x', vows: '0.7.x' },
+35 silly resolved     bugs: { url: 'https://github.com/nodeapps/http-server/issues' },
+35 silly resolved     license: 'MIT',
+35 silly resolved     preferGlobal: 'true',
+35 silly resolved     bin: { 'http-server': './bin/http-server', hs: './bin/http-server' },
+35 silly resolved     readme: '# http-server: a command-line http server\n\n`http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it\'s simple and hackable enough to be used for testing, local development, and learning.\n\n![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)\n\n# Installing globally:\n\nInstallation via `npm`.  If you don\'t have `npm` yet:\n\n     curl https://npmjs.org/install.sh | sh\n\nOnce you have `npm`:\n\n     npm install http-server -g\n\nThis will install `http-server` globally so that it may be run from the command line.\n\n## Usage:\n\n     http-server [path] [options]\n\n`[path]` defaults to `./public` if the folder exists, and `./` otherwise.\n\n# Installing as a node app\n\n     mkdir myapp\n     cd myapp/\n     jitsu install http-server\n\n*If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*\n\n## Usage\n\n### Starting http-server locally\n\n     node bin/http-server\n\n*Now you can visit http://localhost:8080 to view your server*\n\n### Deploy http-server to nodejitsu\n\n     jitsu deploy\n\n*You will now be prompted for a `subdomain` to deploy your application on*\n\n## Available Options:\n\n`-p` Port to use (defaults to 8080)\n\n`-a` Address to use (defaults to 0.0.0.0)\n\n`-d` Show directory listings (defaults to \'True\')\n\n`-i` Display autoIndex (defaults to \'True\')\n\n`-e` or `--ext` Default file extension if none supplied (defaults to \'html\')\n\n`-s` or `--silent` Suppress log messages from output\n\n`--cors` Enable CORS via the `Access-Control-Allow-Origin` header\n\n`-o` Open browser window after staring the server\n\n`-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to \'3600\'). To disable caching, use -c-1.\n\n`-P` or `--proxy` Proxies all requests which can\'t be resolved locally to the given url. e.g.: -P http://someurl.com\n\n`-S` or `--ssl` Enable https.\n\n`-C` or `--cert` Path to ssl cert file (default: cert.pem).\n\n`-K` or `--key` Path to ssl key file (default: key.pem).\n\n`-r` or `--robots` Provide a /robots.txt (whose content defaults to \'User-agent: *\\nDisallow: /\')\n\n`-h` or `--help` Print this list and exit.\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     _id: 'http-server@0.8.5',
+35 silly resolved     _from: 'http-server@' } ]
+36 info install http-server@0.8.5 into /usr/lib
+37 info installOne http-server@0.8.5
+38 info /usr/lib/node_modules/http-server unbuild
+39 info preuninstall http-server@0.8.5
+40 info uninstall http-server@0.8.5
+41 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild http-server@0.8.5
+42 verbose /usr/bin,[object Object] binRoot
+43 info /usr/lib/node_modules/http-server unbuild
+44 info preuninstall http-server@0.8.5
+45 info uninstall http-server@0.8.5
+46 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild http-server@0.8.5
+47 verbose /usr/bin,[object Object] binRoot
+48 error error rolling back Error: Refusing to delete: /usr/bin/http-server not in /usr/lib/node_modules/http-server
+48 error error rolling back     at clobberFail (/usr/lib/node_modules/npm/lib/utils/gently-rm.js:41:12)
+48 error error rolling back     at next (/usr/lib/node_modules/npm/lib/utils/gently-rm.js:27:14)
+48 error error rolling back     at /usr/lib/node_modules/npm/lib/utils/gently-rm.js:36:12
+48 error error rolling back     at Object.oncomplete (fs.js:107:15)
+48 error error rolling back  http-server@0.8.5 { [Error: Refusing to delete: /usr/bin/http-server not in /usr/lib/node_modules/http-server] code: 'EEXIST', path: '/usr/bin/http-server' }
+49 error Refusing to delete: /usr/bin/http-server not in /usr/lib/node_modules/http-server
+File exists: /usr/bin/http-server
+Move it away, and try again.
+50 error System Linux 3.9.5-301.fc19.x86_64
+51 error command "node" "/usr/bin/npm" "install" "http-server" "-g"
+52 error cwd /home/jsmith/itmd362/itmd362-pp/week-one
+53 error node -v v0.10.33
+54 error npm -v 1.3.6
+55 error path /usr/bin/http-server
+56 error code EEXIST
+57 verbose exit [ 1, true ]
