@@ -38,6 +38,7 @@ Use Google or another search engine to learn the keyboard commands to take a scr
 
 Then, also list here the keyboard commands to switch between your different virtual desktops (on some operating systems, you might be able to customize the shortcuts to your own liking):
 
+To switch between workspaces use ctrl+alt+(up or down key). To take a screenshot press PrtScr on keyboard.
 
 4. Set up a distraction-free browser.
 
@@ -47,7 +48,6 @@ You want a clean slate to be able to show a web project off without interference
 
 Use Google or another search engine to learn the keyboard commands to take a screenshot of the window of your distraction-free browser. Create the screenshot, then copy it to this directory (`week-two`) and add and commit it to the repository.
 
-To switch between workspaces use ctrl+alt+(up or down key). To take a screenshot press PrtScr on keyboard.
 
 5. Learn to disable notifications.
 
