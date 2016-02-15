@@ -48,4 +48,6 @@ table {
 }
 input, label{
 	display: block;
+	font-family: 'Roboto', futura;
 }
+
