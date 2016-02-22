@@ -15,8 +15,12 @@ Fine-grained, atomic commits to your Production Problems repository that include
 
 * A monochromatic palette for a website that creates high-end, custom-made gaming laptops.
 
-Filename:
+Filename: gamingscheme.png
 Explanation of your color choices:
+I created this scheme with the thought in mind that the accent colors had to be greens that are high in chroma and brightness.
+The second and third color are black and grey because I wanted the background to be those colors.
+The first color is a more readable green.
+this color scheme was inspired by a terminal on a computer.
 
 * A shaded color palette for a website that sells natural and organic foods.
 
