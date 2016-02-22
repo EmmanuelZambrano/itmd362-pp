@@ -38,5 +38,8 @@ I also wanted the background to be white. While accents will be othe blues and g
 
 * A triadic palette for a website that offers games for children.
 
-Filename:
+Filename: kidgamescheme.png
 Explanation of your color choices:
+I wanted the pallete to be very playful.
+That is why I chose colors that have a hight chroma.
+I chose a gray accent color to be a neutral color.
