@@ -31,8 +31,10 @@ This will give the site a very natural feel.
 
 * A complementary palette for a banking website.
 
-Filename:
-Explanation of your color choices:
+Filename: bankscheme.png
+Explanation of your color choices: 
+I wanted the headline color and navigation bar color to be a blue that is high in chroma.
+I also wanted the background to be white. While accents will be othe blues and grays.
 
 * A triadic palette for a website that offers games for children.
 
