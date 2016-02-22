@@ -24,8 +24,10 @@ this color scheme was inspired by a terminal on a computer.
 
 * A shaded color palette for a website that sells natural and organic foods.
 
-Filename:
+Filename: naturalscheme.png
 Explanation of your color choices:
+I chose a color scheme with different shades of green. All low in saturation.
+This will give the site a very natural feel.
 
 * A complementary palette for a banking website.
 
