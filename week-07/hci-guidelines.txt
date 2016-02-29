@@ -28,6 +28,9 @@ Fine-grained, atomic commits to your Production Problems repository that include
 
 * HCI Guidline One (URL):
 * How you implemented it in your sketch:
+I used Apples guideline which states "Focus on the needs of 80 percent of your users". 
+I decided to use this becouse myiit is notorious for its junk filled site. Most people who travel to myiit
+only need to login.
 
 * HCI Guidline Two (URL):
 * How you implemented it in your sketch:
