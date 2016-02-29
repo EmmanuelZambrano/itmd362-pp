@@ -37,5 +37,8 @@ only need to login.
 "Use plenty of negative space" is the second apple guideline I decided to implement.
 This will make the content seem important and efficient. 
 
-* HCI Guidline Three (URL):
+* HCI Guidline Three (URL):https://www.google.com/design/spec/usability/accessibility.html#accessibility-guidance-feedback
 * How you implemented it in your sketch:
+"Give links a meaning" from the android guidelines is important because I think its good for usesrs
+to know where they are headed. I used this in the footer section where I link the iit.edu website
+and OTS supprt. 
