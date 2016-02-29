@@ -26,14 +26,16 @@ Fine-grained, atomic commits to your Production Problems repository that include
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL):
+* HCI Guidline One (URL):https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/StartingStopping.html#//apple_ref/doc/uid/TP40006556-CH52-SW1
 * How you implemented it in your sketch:
 I used Apples guideline which states "Focus on the needs of 80 percent of your users". 
 I decided to use this becouse myiit is notorious for its junk filled site. Most people who travel to myiit
 only need to login.
 
-* HCI Guidline Two (URL):
+* HCI Guidline Two (URL): https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1
 * How you implemented it in your sketch:
+"Use plenty of negative space" is the second apple guideline I decided to implement.
+This will make the content seem important and efficient. 
 
 * HCI Guidline Three (URL):
 * How you implemented it in your sketch:
